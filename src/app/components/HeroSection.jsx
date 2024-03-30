@@ -7,27 +7,31 @@ import "./heros.css"
 const HeroSection = () => {
     return (
         <section className="lg:py-16">
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50">
                 <Image
                     src="/images/licencia.jpg"
                     alt="images"
                     objectFit="cover"
                     layout="fill"
-                    
+                    className="opacity-50"
                 />
+                <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
+                    <p>lICENCIAS EN AREQUIPA </p>
+                </div>
             </div>
+
             <div className='grid grid-cols-1 lg:grid-cols-12 gap-4 prueba'>
                 <div className='col-span-5 lg:col-span-7 flex flex-col justify-center'>
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 '>
-                            Examen psicosomatico  {""}
+                            Hola, yo soy   {""}
                         </span>
                         <br></br>
                         <TypeAnimation
                             sequence={[
-                                "En",
+                                "Lidia ",
                                 1000,
-                                "Arequipa",
+                                "Mercedes",
                                 1000,
                             ]}
                             wrapper="span"
@@ -38,7 +42,7 @@ const HeroSection = () => {
                     <br></br>
 
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minus fugiat nisi tempore consequuntur quasi quisquam non consequatur quod qui excepturi, cum eos, dolorum repellendus possimus praesentium eum numquam eius?
+                        y estoy aquí para ayudarte a facilitar el proceso de obtención de tu licencia de conducir de manera segura y eficiente.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Nuevo</button>
