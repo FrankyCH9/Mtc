@@ -16,7 +16,7 @@ const HeroSection = () => {
                     className="opacity-50"
                 />
                 <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
-                    <p>lICENCIAS EN AREQUIPA </p>
+                    <p>LICENCIAS EN AREQUIPA </p>
                 </div>
             </div>
 
