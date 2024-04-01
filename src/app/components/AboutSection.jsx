@@ -53,15 +53,15 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white " id="about ">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/carro.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">Sobre Nostros</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Sobre Nosotros</h2>
           <p className="text-base lg:text-lg">
           Nos dedicamos apasionadamente a facilitar el proceso de obtención de licencias de conducir, brindando a nuestros clientes una experiencia personalizada y sin complicaciones.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start flex-wrap mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
