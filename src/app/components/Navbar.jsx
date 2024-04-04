@@ -12,7 +12,7 @@ const navLinks = [
   },
   
   {
-    title: "Contact",
+    title: "Información",
     path: "#contact",
   },
 ];
