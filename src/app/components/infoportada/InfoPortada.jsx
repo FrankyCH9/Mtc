@@ -39,7 +39,7 @@ const InfoPortada = () => {
 
     const xy = [
         { val: "Ofertas", icon: <GiTakeMyMoney style={{ fontSize: "25px" }} /> },
-        { val: "Whatsapp", icon: <FaWhatsapp style={{ fontSize: "25px" }} />, link: "https://wa.me/51944202238" },
+        { val: "Whatsapp", icon: <FaWhatsapp style={{ fontSize: "25px" }} />, link: "https://wa.me/51913334439" },
         { val: "Ubicacion", icon: <IoLocationSharp style={{ fontSize: "25px" }} />, link: "https://www.google.com/maps/@-16.4215725,-71.5083146,20z?hl=es&entry=ttu" }
     ];
     
