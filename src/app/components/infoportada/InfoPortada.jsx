@@ -42,15 +42,17 @@ const InfoPortada = () => {
         { val: "Whatsapp", icon: <FaWhatsapp style={{ fontSize: "25px" }} />, link: "https://wa.me/51944202238" },
         { val: "Ubicacion", icon: <IoLocationSharp style={{ fontSize: "25px" }} />, link: "https://www.google.com/maps/@-16.4215725,-71.5083146,20z?hl=es&entry=ttu" }
     ];
-
+    
     const handleClick = (val) => {
         if (val === "Ofertas") {
             setShowPopup(true);
         } else {
-            window.open(val.link, '_blank');
+            const item = xy.find((x) => x.val === val);
+            if (item && item.link) {
+                window.open(item.link, '_blank');
+            }
         }
     };
-
     return (
         <div className="absolute w-full p-[2%] top-[83%]">
             <div className="">
