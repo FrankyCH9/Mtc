@@ -42,7 +42,7 @@ const Navbar = () => {
             href={"/"}
             className="text-2xl md:text-5xl text-red-500 font-semibold"
           >
-            Atenea Asociados S.A.C
+            Policlínico Atenea
           </Link>
         </div>
         <div className="mobile-menu block md:hidden">
