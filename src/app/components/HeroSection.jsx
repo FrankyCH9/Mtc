@@ -136,8 +136,7 @@ const HeroSection = () => {
               <h2 className="py-2 mb-4  font-bol">Encuentranos en:</h2>
               <p className="text-base lg:text-lg">
                 <span className="block mb-2">🌍 Arequipa</span>
-                <span className="block mb-2">📍 Av. Los Pinos</span>
-                <span className="block">🏢 Urb. Casa Blanca MZ. A-Lote 5</span>
+                <span className="block mb-2">📍 Urb. Casa Blanca MZ. A-Lote 5</span>
                 <span className="block">🏢 Referencia a una cuadra del reservorio de Guardia Civil</span>
                 <span className="block">🏢 Jose Luis Bustamante y Rivera - Arequipa</span>
               </p>
