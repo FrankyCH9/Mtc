@@ -40,7 +40,12 @@ const InfoPortada = () => {
     const xy = [
         { val: "Ofertas", icon: <GiTakeMyMoney style={{ fontSize: "25px" }} /> },
         { val: "Whatsapp", icon: <FaWhatsapp style={{ fontSize: "25px" }} />, link: "https://wa.me/51913334439" },
-        { val: "Ubicacion", icon: <IoLocationSharp style={{ fontSize: "25px" }} />, link: "https://www.google.com/maps/@-16.4215725,-71.5083146,20z?hl=es&entry=ttu" }
+        { 
+            val: "Ubicacion", 
+            icon: <IoLocationSharp style={{ fontSize: "25px" }} />, 
+            link: "https://www.google.com/maps/place/16%C2%B025'40.3%22S+71%C2%B030'51.6%22W/@-16.4278611,-71.5143333,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-16.4278611!4d-71.5143333?hl=es&entry=ttu" 
+          }
+          
     ];
     
     const handleClick = (val) => {

@@ -14,7 +14,7 @@ export default function Home() {
         <Navbar />
         <div className=" mx-auto px-1 py-4 ">
           <HeroSection />
-          <AboutSection /> {/*revision , por que ocasioan desborde */}
+          <AboutSection />
 
           <Footer />{/*revision , por que ocasioan desborde */}
         </div>

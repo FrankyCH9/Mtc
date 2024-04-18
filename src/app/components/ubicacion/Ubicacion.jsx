@@ -25,16 +25,16 @@ const customIcon = new L.icon({
 
 const Ubicacion = () => {
     const openGoogleMaps = () => {
-        window.open('https://www.google.com/maps/@-16.4215725,-71.5083146,19.98z?hl=es&entry=ttu', '_blank');
+        window.open('https://www.google.com/maps/place/16%C2%B025\'40.3%22S+71%C2%B030\'51.6%22W/@-16.4278611,-71.5143333,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-16.4278611!4d-71.5143333?hl=es&entry=ttu', '_blank');
     };
 
     return (
-        <MapContainer center={[-16.4215, -71.5085]} zoom={13} scrollWheelZoom={false} className='ubi z-0'>
+        <MapContainer center={[-16.4278611, -71.5143333]} zoom={17} scrollWheelZoom={false} className='ubi z-0'>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[-16.4215, -71.5085]} icon={customIcon} eventHandlers={{ click: openGoogleMaps }}>
+            <Marker position={[-16.4278611, -71.5143333]} icon={customIcon} eventHandlers={{ click: openGoogleMaps }}>
                 <Popup>
                     A pretty CSS3 popup. <br /> Easily customizable.
                     <Image
@@ -51,4 +51,5 @@ const Ubicacion = () => {
 };
 
 export default Ubicacion;
+
 

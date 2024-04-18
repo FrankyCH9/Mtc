@@ -44,7 +44,7 @@ const HeroSection = () => {
               className="px-10 py-3 text-lg mt-5 bg-red-500 text-white"
               onClick={handleOpen}
             >
-              Info
+              Información
             </Button>
             <Modal
               open={open}
@@ -110,7 +110,7 @@ const HeroSection = () => {
           </p>
 
         </div>
-        
+
 
         <div className="col-span-7 lg:col-span-5 flex justify-center">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
@@ -124,18 +124,27 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <br></br>
 
       <div className="">
         <div className="mt-10  font-bold text-4xl mb-4 text-white ">
-          <h2>Ubicacion</h2>
+          <h2>Ubicación</h2>
         </div>
         <div className="mapax ">
           <div className="flex items-center flex-col justify-center ">
             <div className="w-full lg:w-1/2 pb-[22%] text-white" >
-              <h2 className="py-2 mb-4  font-bol">ENCUENTRANOS EN</h2>
-              <p className="text-base lg:text-lg" >
-                Arequipa <br />Av.Los pinos <br />Referencia:Al frente del ministerio de transportes
+              <h2 className="py-2 mb-4  font-bol">Encuentranos en:</h2>
+              <p className="text-base lg:text-lg">
+                <span className="block mb-2">🌍 Arequipa</span>
+                <span className="block mb-2">📍 Av. Los Pinos</span>
+                <span className="block">🏢 Urb. Casa Blanca MZ. A-Lote 5</span>
+                <span className="block">🏢 Referencia a una cuadra del reservorio de Guardia Civil</span>
+                <span className="block">🏢 Jose Luis Bustamante y Rivera - Arequipa</span>
               </p>
+
+
+
+
             </div>
           </div>
 
