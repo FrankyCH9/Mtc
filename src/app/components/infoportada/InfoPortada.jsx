@@ -74,7 +74,7 @@ const InfoPortada = () => {
                 </TargetDiv>
                 {showPopup && (
                     <Popup onClick={() => setShowPopup(false)}>
-                        Por el momento no hay ofertas disponibles.
+                        Examen medico en oferta a solo S/.80 aprovecha esta OFERTA 
                     </Popup>
                 )}
             </div>
