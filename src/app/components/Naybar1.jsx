@@ -50,7 +50,7 @@ const Naybar1 = () => {
     return (
         <div className="bg-orange-500 text-white text-center py-2 fixed w-full z-10">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <h2 style={{ marginRight: '10px' }}>Examen medio en oferta:</h2>
+                <h2 style={{ marginRight: '10px' }}>Examen médico en oferta:</h2>
                 {timeLeft.days > 0 && <p style={{ margin: '0 5px' }}>{timeLeft.days} días</p>}
                 <p style={{ margin: '0 5px' }}>{timeLeft.hours}h</p>
                 <p style={{ margin: '0 5px' }}>{timeLeft.minutes}m</p>
