@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import Naybar1 from "./components/Naybar1";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
 
           <Footer />{/*revision , por que ocasioan desborde */}
         </div>
+        <WhatsAppButton/>
       </div>
     </main>
   );
