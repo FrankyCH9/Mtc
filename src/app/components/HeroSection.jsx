@@ -64,10 +64,9 @@ const HeroSection = () => {
                     <p className="modal-body" id="modal-modal-description">Para obtener tu licencia de conducir, ofrecemos los siguientes servicios:</p>
                     <ul>
                       <li>&#8226; <strong>Examen médico psicosomático</strong></li>
-                      <li>&#8226; <strong>Nuevo AI</strong></li>
-                      <li>&#8226; <strong>AI, AIIá, AIIb, AIIIa, AIIIB, AIIIC, AIV</strong></li>
+                      <li>&#8226; <strong>Nuevo AI ,AIV</strong></li>
                       <li>&#8226; <strong>Recategorización</strong></li>
-                      <li>&#8226; <strong>AI, AIIá, AIIb, AIIIa, AIIIB, AIIIC, AIV</strong></li>
+                      <li>&#8226; <strong>AIIá, AIIb, AIIIa, AIIIB, AIIIC, AIV</strong></li>
                       <li>&#8226; <strong>Revalidación</strong></li>
                       <li>&#8226; <strong>AI, AIIá, AIIb, AIIIa, AIIIB, AIIIC, AIV</strong></li>
                       <li>&#8226; <strong>Licencias electronicas</strong></li>
