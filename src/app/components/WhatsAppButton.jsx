@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 
 const WhatsAppButton = () => {
-  const phoneNumber = '913334439';
+  const phoneNumber = '+51913334439';
   const goWasap = () => {
     window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}`, '_blank');
   };
