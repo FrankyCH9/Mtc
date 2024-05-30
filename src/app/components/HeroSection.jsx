@@ -70,6 +70,7 @@ const HeroSection = () => {
                       <li>&#8226; <strong>Revalidación</strong></li>
                       <li>&#8226; <strong>AI, AIIá, AIIb, AIIIa, AIIIB, AIIIC, AIV</strong></li>
                       <li>&#8226; <strong>Licencias electronicas</strong></li>
+                      <li>&#8226; <strong>Motos Bllb, Bllc</strong></li>
                     </ul>
                     <br></br>
                     <button className="modal-close" onClick={handleClose}>Cerrar</button>

@@ -3,17 +3,17 @@
 import React, { useState, useEffect } from "react";
 
 const Naybar1 = () => {
-    // Establece la fecha de expiración al próximo viernes
-    const getNextFriday = () => {
+    // Establece la fecha de expiración al próximo sábado
+    const getNextSaturday = () => {
         const today = new Date();
-        const nextFriday = new Date(
-            today.setDate(today.getDate() + ((12 - today.getDay()) % 7))
+        const nextSaturday = new Date(
+            today.setDate(today.getDate() + ((13 - today.getDay()) % 7))
         );
-        nextFriday.setHours(23, 59, 59, 999); // Fija la hora a las 23:59:59
-        return nextFriday;
+        nextSaturday.setHours(23, 59, 59, 999); // Fija la hora a las 23:59:59
+        return nextSaturday;
     };
 
-    const expirationDate = getNextFriday();
+    const expirationDate = getNextSaturday();
 
     const calculateTimeLeft = () => {
         const difference = expirationDate.getTime() - new Date().getTime();
