@@ -74,7 +74,7 @@ const InfoPortada = () => {
                 </TargetDiv>
                 {showPopup && (
                     <Popup onClick={() => setShowPopup(false)}>
-                        Examen medico en oferta a solo S/.220 aprovecha esta OFERTA 
+                        Mas informacion comunicate con nosotros a nuestro Whatsapp 
                     </Popup>
                 )}
             </div>
