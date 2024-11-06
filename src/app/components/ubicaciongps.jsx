@@ -21,13 +21,13 @@ export default function Ubicaciongps({ handleOpenMapModal, handleOpenDirectionsM
             <div className="flex items-start gap-4">
               <Timer className="h-6 w-6 text-blue-600 mt-1" />
               <div className="space-y-1">
-                <p className="text-xl text-gray-700">Lunes - Viernes: 8:00am - 4:00pm</p> {/* Texto más grande */}
+                <p className="text-xl text-gray-700">Lunes - Viernes: 8:00am - 5:00pm</p> {/* Texto más grande */}
                 <p className="text-xl text-gray-700">Sábados: 8:00am - 1:00pm</p> {/* Texto más grande */}
               </div>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="h-6 w-6 text-blue-600" />
-              <span className="text-xl text-gray-700">+51 234 5678</span> {/* Texto más grande */}
+              <span className="text-xl text-gray-700">+51 913334439</span> {/* Texto más grande */}
             </div>
 
             <button
