@@ -43,7 +43,7 @@ const InfoPortada = () => {
         { 
             val: "Ubicacion", 
             icon: <IoLocationSharp style={{ fontSize: "25px" }} />, 
-            link: "https://www.google.com/maps/place/16%C2%B025'40.3%22S+71%C2%B030'51.6%22W/@-16.4278611,-71.5143333,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-16.4278611!4d-71.5143333?hl=es&entry=ttu" 
+            link: "https://www.google.com/maps?q=-16.4214873,-71.5084898&z=17&hl=es" 
           }
           
     ];

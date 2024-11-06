@@ -12,18 +12,17 @@ import WhatsAppButton from "./components/WhatsAppButton";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
-      <Naybar1/>
+      
       <div className=" mt-24 mx-auto px-12 py-10">
        
         <Navbar />
-        <div className=" mx-auto px-1 py-4 ">
+        <div className="  ">
           <HeroSection />
           <AboutSection />
-
-          <Footer />{/*revision , por que ocasioan desborde */}
         </div>
-        <WhatsAppButton/>
       </div>
+      <Footer />
+      <WhatsAppButton/>
     </main>
   );
 }

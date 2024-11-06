@@ -6,6 +6,7 @@ import { Button, Modal, Backdrop, Fade } from '@mui/material';
 import './heros.css';
 import dynamic from 'next/dynamic';
 import InfoPortada from './infoportada/InfoPortada';
+import Ubicaciongps from './ubicaciongps';
 const Ubicacion = dynamic(() => import('./ubicacion/Ubicacion'), {
   ssr: false,
 });
@@ -41,7 +42,7 @@ const HeroSection = () => {
             <h1 className="port">LICENCIAS EN AREQUIPA </h1>
             <Button
               variant="contained"
-              className="px-10 py-3 text-lg mt-5 bg-red-500 text-white"
+              className="px-10 py-3 text-lg mt-5 bg-blue-500 text-white"
               onClick={handleOpen}
             >
               Información
@@ -88,7 +89,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 prueba flex">
         <div className="col-span-5 lg:col-span-7 flex flex-col justify-center">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-400 ">
               Hola, yo soy   {""}
             </span>
             <br></br>
@@ -124,32 +125,11 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <br></br>
 
-      <div className="">
-        <div className="mt-10  font-bold text-4xl mb-4 text-white ">
-          <h2>Ubicación</h2>
-        </div>
-        <div className="mapax ">
-          <div className="flex items-center flex-col justify-center ">
-            <div className="w-full lg:w-1/2 pb-[22%] text-white" >
-              <h2 className="py-2 mb-4  font-bol">Encuentranos en:</h2>
-              <p className="text-base lg:text-lg">
-                <span className="block mb-2">🌍 Arequipa</span>
-                <span className="block mb-2">📍 Urb. Casa Blanca MZ. A-Lote 5</span>
-                <span className="block">🏢 Referencia a una cuadra del reservorio de Guardia Civil</span>
-                <span className="block">🏢 Jose Luis Bustamante y Rivera - Arequipa</span>
-              </p>
-
-
-
-
-            </div>
-          </div>
-
-          <Ubicacion className="" />
-        </div>
-
+      <div >
+        <Ubicaciongps/>
+        
+        
       </div>
     </section>
   )

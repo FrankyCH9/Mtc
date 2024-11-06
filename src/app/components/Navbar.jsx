@@ -34,17 +34,20 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed mx-auto top-0 left-0 right-0 z-10  mt-10 bg-opacity-100 transition-colors duration-500 ${navbarOpen ? 'bg-black' : ''}`}>
+    <nav className={`fixed mx-auto top-0 left-0 right-0 z-10  bg-opacity-100 transition-colors duration-500 ${navbarOpen ? 'bg-black' : ''}`}>
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <div className="flex items-center">
-          <img src="/images/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
-          <Link
-            href={"/"}
-            className="text-2xl md:text-5xl text-red-500 font-semibold"
-          >
-            Policlínico Atenea
+          <img src="/images/titulo.png" alt="Logo" className="h-12 w-12 mr-3" /> {/* Imagen más grande */}
+          <Link href="/" className="text-3xl md:text-5xl font-semibold">
+            <span className="text-black">Policlínico</span> {/* Color negro para "Policlínico" */}
+            <span
+              className="text-gradient bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700 text-transparent bg-clip-text"
+            >
+              {" "}Alcides Carrión AQP{/* Aplicación del degradado con tres tonos de celeste */}
+            </span>
           </Link>
         </div>
+
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
