@@ -32,7 +32,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <FaPhone />
-                <span>923341073</span>
+                <span>913334439</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope />

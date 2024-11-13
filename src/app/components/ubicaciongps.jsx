@@ -16,7 +16,7 @@ export default function Ubicaciongps({ handleOpenMapModal, handleOpenDirectionsM
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-blue-600 mt-1" />
-              <span className="text-xl text-gray-700">Av. Calle Los Pinos 107 (Frente al Ministerio de Transporte)</span> {/* Texto más grande */}
+              <span className="text-xl text-gray-700">Calle Los Pinos 107 (Frente al Ministerio de Transporte)</span> {/* Texto más grande */}
             </div>
             <div className="flex items-start gap-4">
               <Timer className="h-6 w-6 text-blue-600 mt-1" />
