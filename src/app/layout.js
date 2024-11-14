@@ -5,7 +5,7 @@ import Head from "next/head"; // Importa Head de next/head
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Examen Medico",
+  title: "Exámen médico psicosomatico",
   description: "Ofrecemos evaluaciones psicosomáticas rápidas y profesionales para ayudarte a obtener tu licencia de conducir de manera eficiente.",
 };
 
