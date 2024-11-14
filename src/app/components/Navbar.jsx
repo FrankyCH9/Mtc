@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <img src="/images/titulo.png" alt="Logo" className="h-12 w-12 mr-3" /> {/* Imagen más grande */}
           <Link href="/" className="text-3xl md:text-5xl font-semibold">
-            <span className="text-black">Policlínico</span> {/* Color negro para "Policlínico" */}
+            <span className="text-slate-600">Policlínico</span> {/* Color negro para "Policlínico" */}
             <span
               className="text-gradient bg-gradient-to-r from-blue-300 via-blue-500 to-blue-700 text-transparent bg-clip-text"
             >
